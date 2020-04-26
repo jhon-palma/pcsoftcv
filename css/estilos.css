@@ -1,0 +1,56 @@
+#mainNav .navbar-toggler {
+  background-color: #f70201; }
+
+header.masthead {
+  background-image: url("../img/header-bg.jpg"); }
+
+.btn-primary {
+  color: #fff;
+  background-color: #f70201;
+  border-color: #f70201; }
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #f70201; }
+
+.text-primary {
+  color: #f70201 !important; }
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #f70201; }
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(247, 2, 1, 0.9); }
+
+.timeline > li .timeline-image {
+  background-color: #f70201; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f70201;
+  border-color: #fc0403; }
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f70201;
+  border-color: #fc0403; }
+
+.btn-primary:focus, btn-primary.focus {
+  color: #fff;
+  background-color: #f70201;
+  border-color: #fc0403;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 110, 84, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(254, 110, 84, 0.5); }
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 110, 84, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(254, 110, 84, 0.5); }
+
+.portfolio-modal .modal-content h2 {
+  font-size: 1.7rem;
+  line-height: 2rem; }
+
+@media (min-width: 768px) {
+  #mainNav .navbar-brand img {
+    height: 3rem; } }
+
+/*# sourceMappingURL=estilos.css.map */

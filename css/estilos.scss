@@ -1,0 +1,78 @@
+.row>*,{
+    //border: 1px solid red;
+}
+
+//-------------------------------------
+// CONFIGURACIÓN DE COLORES
+//-------------------------------------
+$principal: #f70201;
+$secundario: #feca2f ;
+$texto: #696969;
+$amarillo: #feca2f;
+
+#mainNav .navbar-toggler{
+    background-color: $principal;
+}
+
+header.masthead {
+    background-image: url("../img/header-bg.jpg");
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $principal;
+    border-color: $principal;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: $principal;
+}
+
+.text-primary {
+    color: $principal !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: $principal;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(247, 2, 1, 0.9);
+}
+
+.timeline > li .timeline-image {
+    background-color: $principal;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: $principal;
+    border-color: #fc0403;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: $principal;
+    border-color: #fc0403;
+}
+
+.btn-primary:focus, btn-primary.focus{
+    color: #fff;
+    background-color: $principal;
+    border-color: #fc0403;
+    box-shadow: 0 0 0 0.2rem rgba(254, 110, 84, 0.5)
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 110, 84, 0.5);
+}
+
+.portfolio-modal .modal-content h2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+@media (min-width:768px){
+    #mainNav .navbar-brand img {
+        height: 3rem;
+    }
+}
